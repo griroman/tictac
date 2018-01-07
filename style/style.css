@@ -1,0 +1,53 @@
+#field {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 30px auto;
+/*    font-size: 0;*/
+}
+
+.square {
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    border: 1px solid black;
+    margin-bottom: 4px;
+    padding: 0px;
+    line-height: 95px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background .1s;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: arial;
+}
+.square:hover {
+    background: #8b3b3b;
+}
+input {
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    display: block;
+    margin: 50px auto;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+}
+.totalScore {
+    border: 1px solid black;
+    width: 150px;
+    height: 120px;
+    padding: 15px;
+}
+.totalScore p {
+    text-align: left;
+    display: inline;
+}
+span {
+    float: right;
+    margin-right: 5px;
+}
